@@ -5,4 +5,4 @@ project('updater', 'c',
 
 udev = dependency('libudev')
 
-exe = executable('main', 'src/main.c', dependencies: [udev], install : true)
+exe = executable('gpu', 'src/main.c', dependencies: [udev], install : true)
